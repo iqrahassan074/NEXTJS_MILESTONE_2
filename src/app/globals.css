@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ @layer base {
+  body {
+    color:  #030303;
+    background-color: hwb(106 20% 70% / 0.865);  
+    
+
+   }
+   
+} 
+
+.neon-input, .neon-textarea {
+  height: 40px;
+  padding: 10px;
+  border: 2px solid rgb(83, 49, 86); 
+  background-color: rgba(175, 197, 124, 0.511); 
+  color: rgb(4, 4, 4);
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.neon-input:focus, .neon-textarea:focus {
+  border-color: #52d3a8; 
+  box-shadow: 0 0 10px #25af0c, 0 0 20px #239623, 0 0 30px #8ec21f; 
+}
+
+.neon-textarea {
+  height: 80px;
+  resize: none;
+}
+
+button:hover {
+  box-shadow: 0 0 20px rgba(183, 45, 45, 0.8), 0 0 30px rgba(11, 7, 7, 0.5);
+}
+
+.menuLink {
+  font-size: 1.5rem; 
+  font-weight: 700; 
+  color: rgb(5, 5, 5); 
+  position: relative;
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+}
+
+.menuLink:hover a {
+  color: #ffffff; 
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.7), 0 0 10px rgba(255, 255, 255, 0.5); 
+}
+
+
+.neon {
+  color: rgb(5, 5, 5); 
+  font-size: 1.8rem;
+  
+}
+
+.neon:hover {
+  text-shadow: 
+      0 0 5px white,
+      0 0 10px white,
+      0 0 15px white,
+      0 0 20px white,
+      0 0 25px white; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
